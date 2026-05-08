@@ -36,6 +36,19 @@ before discharge, enabling targeted follow-up interventions.
 | Random Forest | 0.597 | 0.156 |
 | Logistic Regression | 0.573 | 0.162 |
 | Majority Baseline | 0.500 | 0.117 |
+## 📸 Visualizations
+
+### Model Evaluation
+![Model Evaluation](model_evaluation.png)
+
+### SHAP Explainability
+![SHAP Analysis](shap_analysis.png)
+
+### Threshold Analysis
+![Threshold Analysis](threshold_analysis.png)
+
+### Cross-Validation Results
+![Cross Validation](cross_validation.png)
 
 > AUC ~0.677 is consistent with published literature on this dataset.
 > Signal is inherently weak — model is designed for screening, not diagnosis.
